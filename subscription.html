@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style-form.css">
+    <title>El Club de las Ovejas Negras</title>
+</head>
+<body>
+    <header id="encabezado">
+        <h1>EL CLUB DE LAS OVEJAS NEGRAS</h1>
+                <nav>
+            <button id="btn-hamburguesa">&#9776;</button>
+            <ul id="lista-menu">
+                <li>Inicio</li>
+                <li>Nuevas Bandas</li>
+                <li>Noticias</li>
+                <li>Videos</li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main class="cuerpo-formulario">
+        <h2>FORMULARIO DE SUBSCRIPCIÓN</h2>
+        <p class="mensaje-bienvenida"></p>
+        <section class="section-form">
+            <form class="contenedor-formulario formulario" action="" method="post">
+
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nombre" id="nombre">
+                <p class="leyenda-nombre"></p>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <p class="leyenda-email"></p>
+
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña">
+                <p class="leyenda-contraseña"></p>
+
+                <label for="contraseña-dos">Repetir Contraseña</label>
+                <input type="password" name="contraseña-dos" id="contraseña-dos">
+                <p class="leyenda-contraseña-dos"></p>
+
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad">
+                <p class="leyenda-edad"></p>
+
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" id="telefono">
+                <p class="leyenda-telefono"></p>
+
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direccion" id="direccion">
+                <p class="leyenda-direccion"></p>
+
+                <label for="ciudad">Ciudad</label>
+                <input type="text" name="ciudad" id="ciudad">
+                <p class="leyenda-ciudad"></p>
+
+                <label for="cp">Codigo Postal</label>
+                <input type="text" name="cp" id="cp">
+                <p class="leyenda-cp"></p>
+
+                <label for="dni">DNI</label>
+                <input type="text" name="dni" id="dni">
+                <p class="leyenda-dni"></p>
+
+                <button type="submit" class="btn-enviar-form">ENVIAR</button>
+            </form>
+            <div class="mensaje-exitoso" style="display: none;">
+                <h3>FORMULARIO EXITOSO</h3>
+                <p class="datos-usuario"></p>
+                <a href="./index.html"><button>IR A LA PAGINA DE NOTICIAS</button></a>
+            </div>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer id="pie">
+        <h5>REDES:</h5>
+        <div class="container-redes">
+            <a href="https://www.instagram.com/terra_okey/"><b>Instragram</b></a>
+            <a href="https://www.tiktok.com/@terra_okey"><b>TikTok</b></a>
+            <a href="https://www.youtube.com/@terraok"><b>YouTube</b></a>
+        </div>
+    </footer>
+
+    <script src="./js/validacion.js"></script>
+</body>
+</html>

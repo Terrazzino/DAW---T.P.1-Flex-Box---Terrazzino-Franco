@@ -1,0 +1,54 @@
+.cuerpo-formulario{
+    margin: 20px;
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 30%;
+    gap: 3px;
+}
+
+.section-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form p{
+    font-size: 10px;
+}
+
+.section-form h3{
+    color: rgb(153, 237, 27);
+}
+
+.mensaje-exitoso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input, .formulario label, .formulario p{
+    width: 80%;
+}
+
+.mensaje-bienvenida{
+    text-align: center;
+}
+
+@media (min-width:700px) {
+    .section-form{
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .mensaje-exitoso{
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+    }
+}
